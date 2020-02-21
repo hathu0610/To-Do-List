@@ -14,5 +14,18 @@ export default StyleSheet.create({
   },
   centered: {
     alignItems: 'center'
+  },
+  card:{
+    borderRadius:5,
+    backgroundColor:'white',
+    height:55,
+    marginTop:13,
+    shadowColor: 'grey',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 5,
+    borderRadius: 10,
+    
+   
   }
 })
